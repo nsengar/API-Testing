@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTestSuite" duration-ms="17648" started-at="2021-04-25T16:58:43Z" finished-at="2021-04-25T16:59:01Z">
+    <groups>
+    </groups>
+    <test name="My API Testing" duration-ms="17648" started-at="2021-04-25T16:58:43Z" finished-at="2021-04-25T16:59:01Z">
+      <class name="com.wipro.tests.NewTest">
+        <test-method status="PASS" signature="ValidatePostRequest()[pri:0, instance:com.wipro.tests.NewTest@2dbd803f]" name="ValidatePostRequest" duration-ms="7794" started-at="2021-04-25T22:28:43Z" finished-at="2021-04-25T22:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePostRequest -->
+        <test-method status="PASS" signature="ValidateGetRequest()[pri:1, instance:com.wipro.tests.NewTest@2dbd803f]" name="ValidateGetRequest" duration-ms="2148" started-at="2021-04-25T22:28:51Z" finished-at="2021-04-25T22:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateGetRequest -->
+        <test-method status="PASS" signature="ValidateUpdatetRequest()[pri:2, instance:com.wipro.tests.NewTest@2dbd803f]" name="ValidateUpdatetRequest" duration-ms="4090" started-at="2021-04-25T22:28:53Z" finished-at="2021-04-25T22:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUpdatetRequest -->
+        <test-method status="PASS" signature="validateDeletRequest()[pri:3, instance:com.wipro.tests.NewTest@2dbd803f]" name="validateDeletRequest" duration-ms="3586" started-at="2021-04-25T22:28:57Z" finished-at="2021-04-25T22:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletRequest -->
+      </class> <!-- com.wipro.tests.NewTest -->
+    </test> <!-- My API Testing -->
+  </suite> <!-- AllTestSuite -->
+</testng-results>

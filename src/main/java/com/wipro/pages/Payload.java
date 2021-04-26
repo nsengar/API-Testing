@@ -22,5 +22,10 @@ public class Payload {
 				"";
 		
 	}
+	
+	public static String dummyInputJson() {
+		return "{\"name\":\"test\",\"salary\":\"123\",\"age\":\"23\"}";
+		
+	}
 
 }

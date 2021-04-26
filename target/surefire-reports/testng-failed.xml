@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AllTestSuite]">
+  <test name="My API Testing(failed)">
     <classes>
       <class name="com.wipro.tests.Dummy">
         <methods>
           <include name="ValidateGetRequest"/>
+          <include name="ValidatePostRequest"/>
         </methods>
       </class> <!-- com.wipro.tests.Dummy -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- My API Testing(failed) -->
+</suite> <!-- Failed suite [AllTestSuite] -->

@@ -5,6 +5,7 @@
              <test name="My API Testing" allow-return-values="true">
                      <classes>
                              <class name ="com.wipro.tests.NewTest" />
+                             <class name ="com.wipro.tests.Dummy" />
                      </classes>
              </test>
 
